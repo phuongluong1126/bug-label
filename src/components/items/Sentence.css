@@ -1,0 +1,78 @@
+.sentence_container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--co-bg);
+}
+.label {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Raleway-bold";
+  border-radius: 1rem;
+  cursor: pointer;
+  color: var(--co-white);
+  margin: 0.2rem auto;
+  width: 8rem;
+  height: 2rem;
+  line-height: 2rem;
+  outline: none;
+  border: none;
+}
+.label_problem {
+  background-color: var(--co-lb-problem);
+}
+.label_solution {
+  background-color: var(--co-lb-solution);
+}
+.label_other {
+  background-color: var(--co-lb-other);
+}
+.sentence {
+  line-height: 1.5rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem auto;
+  margin-left: 0.5rem;
+  width: 100%;
+  font-size: 1.3rem;
+  overflow: hidden;
+}
+.sentence_problem {
+  color: var(--co-lb-problem);
+}
+.sentence_solution {
+  color: var(--co-lb-solution);
+}
+.sentence_other {
+  color: var(--co-lb-other);
+}
+.no_label {
+  background-color: var(--co-bg);
+}
+.no_label .label {
+  display: none;
+}
+.no_label .sentence {
+  color: var(--co-main);
+  margin-left: 0;
+  padding-left: 0;
+}
+.highlight {
+  /* background: var(--co-text);
+  color: white; */
+  font-weight: 800;
+}
+.highlight_problem {
+  color: var(--co-lb-problem);
+  /* background: var(--co-lb-problem); */
+}
+
+.highlight_solution {
+  color: var(--co-lb-solution);
+  /* background: var(--co-lb-solution); */
+}
+
+.highlight_other {
+  color: var(--co-lb-other);
+  /* background: var(--co-lb-other); */
+}

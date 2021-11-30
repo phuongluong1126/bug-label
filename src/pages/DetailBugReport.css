@@ -1,0 +1,21 @@
+.detail_page {
+  width: 70%;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.05rem solid var(--co-main);
+  padding-bottom: 1.5rem;
+}
+.report_title {
+  font-size: 1.8rem;
+  margin: 1rem 2rem;
+  font-family: "Raleway-bold";
+  color: var(--co-main);
+}
+.report_content {
+  width: 90%;
+  margin: 1rem 2rem;
+  font-family: "Raleway-regular";
+}

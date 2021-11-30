@@ -1,0 +1,41 @@
+.bug_item_container {
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+  margin-bottom: 1rem;
+  border: 0.05rem solid var(--co-main);
+  width: 90%;
+}
+.bug_item_container:hover .item_title {
+  text-decoration: underline;
+}
+.link_bug {
+  text-decoration: none;
+}
+.item_title {
+  color: var(--co-text);
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.item_content {
+  margin: 0.2rem 1rem;
+  margin-bottom: 0;
+}
+.ReadMore {
+  margin-right: 1rem;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--co-text);
+  font-family: "Raleway-regular";
+}
+.title_highlight {
+  /* background-color: var(--co-text);
+  color: white; */
+  font-weight: 700;
+}
+.sentence2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

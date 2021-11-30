@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: "Raleway-bold";
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--co-bg);
+}
+.logo {
+  position: relative;
+  left: 50px;
+  width: 90px;
+  margin-left: 2rem;
+  padding-top: 10px;
+}
+
+.nav_link {
+  color: var(--co-main);
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.3em 0.5rem;
+}
+
+.nav_link:hover {
+  border-bottom: 3px solid var(--co-main);
+  transition: all 0.2s ease-out;
+}
+
+.nav_link_container{
+  display: flex;
+  justify-content: center;
+  width: 82%;
+}

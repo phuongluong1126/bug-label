@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--co-bg);
+  --co-main: #4A4040;
+  --co-text: #201b1b;
+  --co-white: #fff;
+  --co-bg: #F3F1EC;
+  --co-bt: #BFBEC2;
+  --co-lb-all:#4A4040; 
+  --co-lb-problem: #E45C3F;
+  --co-lb-solution: #4ABF75;
+  --co-lb-other: #FFBF46;
+}
+.page{
+  margin: 1rem 1rem;
+  font-size: 1.1rem;
+  font-family:"Raleway-regular";
+  color: var(--co-text)
+}
+
+@font-face {
+  font-family:"Raleway-regular";
+  src:url(./fonts/Raleway-Regular.ttf)
+}
+@font-face {
+  font-family:"Raleway-medium";
+  src:url(./fonts/Raleway-Medium.ttf)
+}
+@font-face {
+  font-family:"Raleway-bold";
+  src:url(./fonts/Raleway-Bold.ttf)
+}
